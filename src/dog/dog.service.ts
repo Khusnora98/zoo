@@ -8,4 +8,8 @@ export class DogService {
     public introduce(): string {
         return " My name is Jack!";
     }
+    public modifyDetail(): string {
+        return " Successfully Modified!";
+    }
+
 }
